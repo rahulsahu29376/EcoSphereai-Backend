@@ -9,13 +9,13 @@ Built with **Node.js**, **Express.js**, **Supabase PostgreSQL**, **JWT Authentic
 ## 🌐 Live Deployed Backend
 
 - **Deployment Platform**: Render
-- **Base URL**: [https://ecosphereai-backend-2.onrender.com](https://ecosphereai-backend-2.onrender.com)
-- **API Base**: [https://ecosphereai-backend-2.onrender.com/api](https://ecosphereai-backend-2.onrender.com/api)
-- **Health Check**: [https://ecosphereai-backend-2.onrender.com/api/health](https://ecosphereai-backend-2.onrender.com/api/health)
+- **Base URL**: [https://ecosphereai-backend-3.onrender.com](https://ecosphereai-backend-3.onrender.com)
+- **API Base**: [https://ecosphereai-backend-3.onrender.com/api](https://ecosphereai-backend-3.onrender.com/api)
+- **Health Check**: [https://ecosphereai-backend-3.onrender.com/api/health](https://ecosphereai-backend-3.onrender.com/api/health)
 
 ```bash
 # Test the live deployment
-curl https://ecosphereai-backend-2.onrender.com/api/health
+curl https://ecosphereai-backend-3.onrender.com/api/health
 ```
 
 ---

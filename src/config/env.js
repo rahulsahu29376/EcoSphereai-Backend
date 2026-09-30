@@ -14,6 +14,6 @@ module.exports = {
   supabaseServiceRoleKey: process.env.SUPABASE_SERVICE_ROLE_KEY || '',
   geminiApiKey: process.env.GEMINI_API_KEY || '',
   openaiApiKey: process.env.OPENAI_API_KEY || '',
-  backendUrl: process.env.BACKEND_URL || 'https://ecosphereai-backend-2.onrender.com',
+  backendUrl: process.env.BACKEND_URL || 'https://ecosphereai-backend-3.onrender.com',
   clientUrl: process.env.CLIENT_URL || 'https://eco-sphereai-frontend.vercel.app',
 };
