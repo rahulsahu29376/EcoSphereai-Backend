@@ -6,6 +6,20 @@ Built with **Node.js**, **Express.js**, **Supabase PostgreSQL**, **JWT Authentic
 
 ---
 
+## 🌐 Live Deployed Backend
+
+- **Deployment Platform**: Render
+- **Base URL**: [https://ecosphereai-backend-2.onrender.com](https://ecosphereai-backend-2.onrender.com)
+- **API Base**: [https://ecosphereai-backend-2.onrender.com/api](https://ecosphereai-backend-2.onrender.com/api)
+- **Health Check**: [https://ecosphereai-backend-2.onrender.com/api/health](https://ecosphereai-backend-2.onrender.com/api/health)
+
+```bash
+# Test the live deployment
+curl https://ecosphereai-backend-2.onrender.com/api/health
+```
+
+---
+
 ## 🌟 Architecture & Features
 
 - 🏗️ **Clean MVC Architecture**: Controllers, middleware, routes, validators, and dedicated calculation services.
@@ -24,7 +38,7 @@ Built with **Node.js**, **Express.js**, **Supabase PostgreSQL**, **JWT Authentic
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Quick Start (Local Development)
 
 ### 1. Install Dependencies
 ```bash
@@ -39,7 +53,7 @@ cp .env.example .env
 Fill in your Supabase project credentials and JWT secret:
 ```env
 PORT=5000
-NODE_ENV=production
+NODE_ENV=development
 JWT_SECRET=your_jwt_secret_key_here
 JWT_EXPIRES_IN=7d
 
@@ -48,7 +62,7 @@ SUPABASE_KEY=your_supabase_secret_key
 SUPABASE_ANON_KEY=your_supabase_anon_key
 SUPABASE_SERVICE_ROLE_KEY=your_supabase_secret_key
 
-# Optional
+# Optional AI API keys
 GEMINI_API_KEY=
 OPENAI_API_KEY=
 ```
@@ -77,7 +91,7 @@ node test_suite.js
 
 ---
 
-## 📡 Key API Endpoints
+## 📡 API Endpoints Overview
 
 | Method | Endpoint | Description | Auth Required |
 |---|---|---|---|
