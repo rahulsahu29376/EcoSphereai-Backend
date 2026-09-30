@@ -5,7 +5,7 @@
 
 const axios = require('axios');
 
-const BASE_URL = 'http://localhost:5000/api';
+const BASE_URL = process.env.TEST_API_URL || 'http://localhost:5000/api';
 
 async function runTestSuite() {
   console.log('🧪 Starting AI Sustainability Tracker End-to-End Test Suite...\n');
